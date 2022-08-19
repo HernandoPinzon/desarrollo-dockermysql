@@ -3,7 +3,7 @@ services:
     build: 
       context: .
       dockerfile: Dockerfile
-    container_name: mysql
+    container_name: mysqlforadonis
     restart: always
     ports:
       - "3306:3306"
